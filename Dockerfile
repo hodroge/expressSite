@@ -1,5 +1,7 @@
 FROM node:latest
-MAINTAINER ahmed hodroge
+
+MAINTAINER oumnya benhassou
+
 ENV NODE_ENV=production
 ENV PORT=3000
 COPY      . /var/www
